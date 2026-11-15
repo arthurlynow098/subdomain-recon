@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<p align="center"><img src="assets/banner.svg" alt="Subdomain Recon" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="Subdomain Recon" width="100%"></p>
 
 <p align="center">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-84CC16?style=for-the-badge&logo=python&logoColor=white">
@@ -13,7 +13,7 @@
 
 <a id="sobre"></a>
 
-<p><img src="assets/secao-01.svg" alt="Sobre o projeto" width="100%"></p>
+<p><img src="assets/secao-01.png" alt="Sobre o projeto" width="100%"></p>
 
 Uma empresa não protege o que ela nem sabe que existe. É comum ter um `homolog.empresa.com.br` esquecido, rodando uma versão antiga do sistema, ou um painel do Jenkins que alguém publicou para testar e nunca mais tirou do ar. Esse tipo de coisa é o que se chama de **superfície de ataque**, e mapear ela é o primeiro passo tanto de quem defende quanto de um pentest autorizado.
 
@@ -21,7 +21,7 @@ O Subdomain Recon faz esse inventário de forma **passiva**. Ele consulta os log
 
 <a id="como-funciona"></a>
 
-<p><img src="assets/secao-02.svg" alt="Como funciona" width="100%"></p>
+<p><img src="assets/secao-02.png" alt="Como funciona" width="100%"></p>
 
 ```mermaid
 flowchart LR
@@ -44,7 +44,7 @@ Alguns cuidados que tomei
 
 <a id="rodando"></a>
 
-<p><img src="assets/secao-03.svg" alt="Rodando na sua máquina" width="100%"></p>
+<p><img src="assets/secao-03.png" alt="Rodando na sua máquina" width="100%"></p>
 
 Só precisa de Python 3.10 ou mais novo.
 
@@ -66,7 +66,7 @@ pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-<p><img src="assets/secao-04.svg" alt="Exemplo de saída" width="100%"></p>
+<p><img src="assets/secao-04.png" alt="Exemplo de saída" width="100%"></p>
 
 Resultado real para o `example.com`, domínio reservado para exemplos de documentação.
 
@@ -88,7 +88,7 @@ Repare que vários nomes tiveram certificado emitido no passado mas não resolve
 
 <a id="aprendi"></a>
 
-<p><img src="assets/secao-05.svg" alt="O que eu aprendi" width="100%"></p>
+<p><img src="assets/secao-05.png" alt="O que eu aprendi" width="100%"></p>
 
 - O que é Certificate Transparency e por que ele existe (detectar certificado emitido indevidamente)
 - A diferença entre reconhecimento passivo e ativo
@@ -104,7 +104,7 @@ Próximos passos
 
 <a id="estudos"></a>
 
-<p><img src="assets/secao-06.svg" alt="Estudei por aqui" width="100%"></p>
+<p><img src="assets/secao-06.png" alt="Estudei por aqui" width="100%"></p>
 
 Segui essas aulas e materiais para entender e aplicar tudo que está aqui.
 
