@@ -1,0 +1,14 @@
+[project]
+name = "subdomain-recon"
+version = "1.0.0"
+description = "Inventário passivo de subdomínios com Certificate Transparency"
+requires-python = ">=3.10"
+authors = [{ name = "Arthur Entsev" }]
+license = { text = "MIT" }
+
+[project.scripts]
+recon = "recon.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
